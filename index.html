@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The CringeCore Nerdverse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="terminal">
+    <pre id="ascii-art"></pre>
+    <p class="cringe-quote">"Loading cringe quote..."</p>
+    <input type="text" id="fake-input" placeholder="Type something nerdy...">
+  </div>
+  <audio id="bg-music" src="assets/sounds/nerd-lofi.mp3" loop autoplay></audio>
+  <script src="script.js"></script>
+
+  <canvas id="matrix"></canvas>
+
+<div id="cringe-meter">
+  <div id="meter-fill"></div>
+</div>
+
+<button id="uwu-toggle">Toggle UwU Mode</button>
+
+<div id="anime-popup" hidden>
+  <img src="https://media.tenor.com/CDEq4E4E_eYAAAAC/anime-girl.gif" alt="Anime">
+  <p>「You have reached max cringe!」</p>
+</div>
+
+<section id="confession-section">
+  <h2>📝 Drop Your Cringiest Confession</h2>
+  <form id="confession-form">
+    <textarea
+      id="cringe-input"
+      placeholder="I once debugged for 6 hours... then realized the issue was a missing semicolon 😭"
+      required
+    ></textarea>
+    <button type="submit">Confess Anonymously</button>
+  </form>
+
+  <div id="confession-wall">
+    <h3>💬 Cringe Confessions Wall</h3>
+    <ul id="confessions-list"></ul>
+  </div>
+</section>
+
+</body>
+</html>
