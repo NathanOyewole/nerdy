@@ -21,7 +21,7 @@ It can be used as a:
 
 ### 🖥️ Landing UI
 
-![Main Terminal Interface](/nerdy/assets/new_COOK_1%20(1).PNG)
+![Main Terminal Interface](/assets/new_COOK_1%20(1).PNG)
 
 > The homepage shows a fully terminal-emulated layout with fake prompts, blinking cursors, username input, and styled ASCII blocks — giving off serious *hacker console vibes*.
 
