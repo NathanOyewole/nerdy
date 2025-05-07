@@ -64,6 +64,6 @@ It can be used as a:
 Clone the repo and just open `index.html` in any browser.
 
 ```bash
-git clone https://github.com/yourusername/cringecore-nerdverse.git
-cd cringecore-nerdverse
+git clone https://github.com/NathanOyewole/nerdy.git
+cd nerdy
 open index.html
